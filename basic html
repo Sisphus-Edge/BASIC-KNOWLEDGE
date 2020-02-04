@@ -7,4 +7,9 @@
 <p>To reduce my screen time and practice using basic htlm which be learned today.l try to creat a web to record my everyday screen time.</p>
 
 <form>
-<label for
+<label for="less than one hour"><input id="less than one hour" value="less than one hour" type="radio" name="How long is your screen time?">Less than one hour</label>
+<label for="one hour"><input id="one hour" value="one hour" type="radio" name="How long is your screen time?">One hour</label>
+<label for="one to twe"><input id="one to twe" value="one to twe" type="radio" name="How long is your screen time?">One to Twe</label>
+</form>
+</body>
+</html>
