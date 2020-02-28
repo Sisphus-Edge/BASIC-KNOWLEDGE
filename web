@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<style>
+#main{background:linear-gradient(0deg,rgb(250,250,250),rgb(248,223,112));display:block;}
+#title{font-size:60px;display:flex;justify-content:center;}
+#image{width:80%;display:block;margin:auto;margin-top:25px;margin-botton:20px;}
+#image-caption{color:rgb(102,70,42);display:flex;justify-content:flex-end;font-size:20px;margin-right:10%;}
+#introduce{margin-right:10%;margin-left:10%;margin-top:30px;font-size:25px;}
+#english{margin-right:10%;margin-left:10%;margin-top:30px;font-size:25px;}
+#tribute-link{display:flex;justify-content:center;margin-top:30px;font-size:25px;}
+#tribute-link:hover{animation-name:color;animation-duration:2s; animation-fill-mode:forward;}
+@keyframes color{0%{color:blck}100%{color:rgb(124,24,35)}}
+.me{margin-right:10%;margin-left:70%;margin-top:30px;font-size:20px;}
+</style>
+
+
+
+<div id=main>
+<header id=title>Chinese Calligraphy</header>
+ 
+  <div id="image-div"><img id="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1582890385803&di=cc3844f5b4c709f96761b4ecc6cc6eac&imgtype=jpg&src=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D1145946380%2C817509741%26fm%3D214%26gp%3D0.jpg" alt="兰亭序by王羲之">
+    <text id="image-caption">兰亭序by王羲之 Lantingxu by Xizhi Wang </text>  </div>
+  <p id="introduce">书法，是中国及深受中国文化影响过的周边国家和地区特有的一种文字美的艺术表现形式。包括汉字书法、蒙古文书法、阿拉伯书法和英文书法等。其“中国书法”，是中国汉字特有的一种传统艺术。
+从广义讲，书法是指文字符号的书写法则。换言之，书法是指按照文字特点及其含义，以其书体笔法、结构和章法书写，使之成为富有美感的艺术作品。汉字书法为汉族独创的表现艺术，被誉为：无言的诗，无行的舞；无图的画，无声的乐等。
+  </p>
+   <p id=english> Calligraphy is a unique form of artistic expression of the beauty of characters in China and the neighboring countries and regions deeply influenced by Chinese culture. Including Chinese character calligraphy, Mongolian calligraphy, Arabic calligraphy and English calligraphy and so on. His "Chinese calligraphy" is a unique traditional art of Chinese characters. 
+In a broad sense, calligraphy refers to the writing rules of written symbols. In other words, calligraphy refers to writing according to the characteristics and meaning of the text, with its calligraphy style, structure and structure, so as to make it a work of art full of aesthetic feeling. Chinese calligraphy is an original art of expression of the Han nationality, known as: silent poetry, no line dance, no picture painting, silent music and so on. </p>
+  
+  <a id=tribute-link href="http://www.shufa.org/">Click here to find out more information about Chinese Calligraphy(ShuFa).</a>
+   <footer class="me">Writting by Ran.
+    2020.2.28</footer>  </div>
+    
+    </html>
